@@ -1,0 +1,71 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color:ivory;
+    margin: 0;
+}
+
+
+
+body > footer {
+    background-color: dodgerblue;
+}
+
+body > footer >h3 {
+    padding: 16px;
+    color: white;
+    text-align: center;
+}
+
+body > header {
+    background-color: dodgerblue;
+    color:white;
+    padding: 16px;
+}
+
+#logo {
+    margin: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+header > nav > ul> li> a {
+    color:white;
+    list-style: none;
+}
+
+article {
+    width: 30%;
+    display: inline-block;
+    padding: 0 10px 0 10px;
+    margin: auto;
+}
+
+#main-article {
+    margin: auto;
+    width: 40%;
+  
+}
+
+img {
+    
+    width: 300px;
+    height:300px;
+    object-fit:cover;
+ 
+}
+
+article > a {
+    color:black;
+    display: inline-block;
+    width: 60%;
+}
+
+post > p {
+    border-style:none none groove none
+}
+
+post > img {
+    width: 10%;
+    height: 10%;
+}
+
+
